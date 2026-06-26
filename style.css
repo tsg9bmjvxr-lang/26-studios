@@ -1,14 +1,13 @@
-/* Koko sivun taustalle asetetaan tiiliseinä */
 body {
     margin: 0;
     padding: 0;
     width: 100%;
-    min-height: 100vh; /* Sivun vähimmäiskorkeus on koko ruutu */
+    min-height: 100vh;
     background-image: url("brick-wall.JPG");
-    background-size: cover; /* Kuva täyttää koko taustan */
-    background-position: center; /* Keskittää kuvan */
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed; /* Tausta pysyy paikallaan skrollatessa */
+    background-attachment: fixed;
 }
 
 
@@ -45,5 +44,5 @@ body {
     max-width: 300px;
     width: 100%;
     height: auto;
-    filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.7)); /* Tekee hienon varjon, logo erottuu vedestä */
+    filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.7));
 }
