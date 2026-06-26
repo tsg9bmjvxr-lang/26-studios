@@ -1,23 +1,23 @@
-
+/* Koko sivun taustalle asetetaan tiiliseinä */
 body {
     margin: 0;
     padding: 0;
     width: 100%;
-    min-height: 100vh;
+    min-height: 100vh; /* Sivun vähimmäiskorkeus on koko ruutu */
     background-image: url("brick-wall.JPG");
-    background-size: cover;
-    background-position: center;
+    background-size: cover; /* Kuva täyttää koko taustan */
+    background-position: center; /* Keskittää kuvan */
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed; /* Tausta pysyy paikallaan skrollatessa */
 }
+
 
 .hero-header {
     position: relative;
     width: 100%;
-    height: 35vh; /* Tämä määrittää yläosan korkeuden (35% ruudusta), voit muuttaa tätä tarvittaessa */
+    height: 30vh;
     overflow: hidden;
 }
-
 
 .bg-video {
     position: absolute;
@@ -28,7 +28,6 @@ body {
     object-fit: cover;
     z-index: 1;
 }
-
 
 .logo-container {
     position: absolute;
@@ -43,8 +42,8 @@ body {
 }
 
 .logo-container img {
-    max-width: 300px; /* Voit säätää logon kokoa tästä */
+    max-width: 300px;
     width: 100%;
     height: auto;
-    filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.7));
+    filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.7)); /* Tekee hienon varjon, logo erottuu vedestä */
 }
