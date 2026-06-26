@@ -4,7 +4,7 @@ body {
     padding: 0;
     width: 100%;
     min-height: 100vh; /* Sivun vähimmäiskorkeus on koko ruutu */
-    background-image: url("brick-wall.JPG");
+    background-image: url("brick-wall.jpg");
     background-size: cover; /* Kuva täyttää koko taustan */
     background-position: center; /* Keskittää kuvan */
     background-repeat: no-repeat;
