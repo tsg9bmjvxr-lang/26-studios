@@ -18,16 +18,24 @@ body::before {
 }
 
 body::after {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: radial-gradient(circle, rgba(255, 100, 0, 0.3), rgba(0, 0, 0, 0.6) 80%);
-  pointer-events: none;
-  z-index: -1;
-  animation: wallGlow 6s ease-in-out infinite alternate;
+    content: "";
+    ...
+    animation: wallGlow 6s ease-in-out infinite alternate;
+}
+
+header.hero-header:first-of-type::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    background: radial-gradient(circle at center bottom, 
+        rgba(255, 180, 100, 0.25) 0%, 
+        rgba(0, 0, 0, 0.4) 100%
+    );
+    pointer-events: none;
+    z-index: 2;
 }
 
 .first-hero {
@@ -50,7 +58,6 @@ body::after {
     z-index: 1;
 }
 
-/* Ensimmäisen osion tyyliin lisätään position: relative, jotta ::after toimii oikein */
 .first-hero {
     position: relative;
 }
