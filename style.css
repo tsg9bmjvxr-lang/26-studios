@@ -35,20 +35,18 @@ body::after {
     width: 100%;
     height: 100vh;
     min-height: 1080px;
-    /* Laitetaan taustalle tiiliseinä näkymään siltä osin kun video ei peitä */
     background-image: url('brick-wall.JPG');
     background-size: cover;
-    background-position: center;
+    background-position: center bottom;
     overflow: hidden;
 }
 
 .first-hero .bg-video {
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: relative;
     width: 100%;
     aspect-ratio: 1920 / 400;
     object-fit: cover;
+    display: block;
     z-index: 1;
 }
 
