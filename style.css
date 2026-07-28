@@ -2,15 +2,13 @@
   width: 100%;
   min-height: 5400px;
   background-image: url('brick-wall.JPG');
-  background-size: cover;
+  background-size: 100%;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  padding: 20px;
 }
 
 html, body {
