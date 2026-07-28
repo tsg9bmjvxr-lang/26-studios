@@ -2,7 +2,7 @@
   width: 100%;
   min-height: 5400px;
   background-image: url('brick-wall.JPG');
-  background-size: cover;
+  background-size: repeat;
   background-position: center;
   background-repeat: repeat;
   display: flex;
