@@ -3,7 +3,7 @@ html, body {
     padding: 0;
     width: 100%;
     background-image: url('brick-wall.JPG');
-    background-size: 500px auto;
+    background-size: 300px auto;
     background-repeat: repeat;
     font-family: sans-serif;
     overflow-x: hidden;
